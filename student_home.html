@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Catalog</title>
+    <!--Jquery (dev version)-->
+    <script type="text/javascript" src="js/jquery/jquery-3.1.1.min.js"></script>
+    <!--Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.7/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap-3.3.7/bootstrap.min.js"></script>
+    <!--End Bootstrap-->
+
+    <!--Mains -->
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <script src="js/main.js"></script>
+    <script src="js/student_home.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <p class="navbar-brand greeting"></p>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h6 class="panel-title">Оценки</h6>
+                        <!-- <div class="pull-right">
+                                <a class="btn btn-success btn-xs" href="offer.html">
+                                    <span>Добавить</span>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div> -->
+                    </div>
+                    <table id="marks-table" class="table table-striped table-condensed table-hover table-responsive">
+                        <thead>
+                            <tr>
+                                <th>Дата</th>
+                                <th>Предмет</th>
+                                <th>Преподаватель</th>
+                                <th>Оценка</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="panel panel-primary">
+                    <div class="panel-heading form-inline">
+                        <div class="form-group">
+                            <label class="h6 panel-title" for="timetable-date">Расписание на </label>
+                            <input class="form-control" id="tt-date" name="timetable-date" type="date">
+                        </div>
+                        <!-- <div class="pull-right">
+                                <a class="btn btn-success btn-xs" href="offer.html">
+                                    <span>Добавить</span>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div> -->
+                    </div>
+                    <table id="timetable-table" class="table table-striped table-condensed table-hover table-responsive">
+                        <thead>
+                            <tr>
+                                <th>Дата</th>
+                                <th>Предмет</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h6 class="panel-title">Посещаемые предметы</h6>
+                        <!-- <div class="pull-right">
+                                    <a class="btn btn-success btn-xs" href="offer.html">
+                                        <span>Добавить</span>
+                                    </a>
+                                </div>
+                                <div class="clearfix"></div> -->
+                    </div>
+                    <table id="subject-table" class="table table-striped table-condensed table-hover table-responsive">
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container center-block">
+            <p>Copyright "Nothing & No One Inc.". For any business inquiries, call 1-800-WE-DUNNO.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

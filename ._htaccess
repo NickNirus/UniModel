@@ -1,0 +1,5 @@
+Options -Indexes
+DirectoryIndex login.html
+
+RewriteEngine on
+Redirect "/index.html" "/login.html"

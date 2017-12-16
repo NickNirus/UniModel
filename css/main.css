@@ -1,0 +1,65 @@
+button, .btn  {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+button, .btn {
+    border-radius: 0px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+hr {
+    margin-top:0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer p {
+    margin: 20px;
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+*[id *= '-slider-left'] {
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+*[id *= '-slider-right'] {
+    float: right;
+    width: auto;
+    margin-left: 10px;
+}
+
+.slider.slider-wide {
+    width:100%;
+}
+
+table.information {
+    margin-bottom: 0px;
+}
+
+.slider-selection {
+    /*background-image: linear-gradient(to bottom, #0480be,#0480be);
+    opacity: 0.8;*/
+}

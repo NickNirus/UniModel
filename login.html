@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Enter credentials</title>
+    <!--Jquery (dev version)-->
+    <script type="text/javascript" src="js/jquery/jquery-3.1.1.min.js"></script>
+    <!--Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap-3.3.7/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap-3.3.7/bootstrap.min.js"></script>
+    <!--Bootstrap slider by Stefan Petre-->
+    <link rel="stylesheet" href="css/bootstrap-3.3.7/bootstrap-slider.css">
+    <script src="js/bootstrap-3.3.7/bootstrap-slider.js"></script>
+    <!--End Bootstrap-->
+
+    <!--Mains -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-offset-5 col-sm-2">
+                <form action="php/login.php" method="POST" id="signin-form">
+                    <h2 class="signin-heading">UNIMODEL</h2>
+                    <div class="form-group">
+                        <label for="inputEmail">Логин</label>
+                        <input type="text" id="inputEmail" class="form-control" name="login" placeholder="Login" required="" autofocus="" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword">Пароль</label>
+                        <input type="password" id="inputPassword" class="form-control margin-top-10px" name="password" placeholder="Password" required="">
+                    </div>
+                    <div class="form-group">
+                        <div class="alert alert-danger alert-dismissible hidden" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <input class="btn btn-primary" type="submit">
+                        </input>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
